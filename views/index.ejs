@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <%friends.forEach(function(friend){%>
+        <li>
+            <%=friend.id%>
+            <%=friend.name%>
+        </li>
+      <%})%>
+    </ul>
+  </body>
+</html>
